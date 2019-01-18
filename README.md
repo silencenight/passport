@@ -1,6 +1,5 @@
 # passport
 sprinboot2+mybatis+jwt+sso
 
-环境：
-java1.8+
-mysql5.7+
+# 本地运行
+环境准备：JDK 1.8、Maven 3.3 、MySQL 5.7
