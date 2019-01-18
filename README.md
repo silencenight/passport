@@ -2,5 +2,5 @@
 sprinboot2+mybatis+jwt+sso
 
 # 本地运行
-环境准备：JDK 1.8、Maven 3.3 、MySQL 5.7、IntelliJ IDEA2017.03
-初始化数据库：创建数据，db/mysql/core.sql
+1. 环境准备：JDK 1.8、Maven 3.3 、MySQL 5.7、IntelliJ IDEA2017.03
+2. 初始化数据库：创建数据，db/mysql/core.sql
