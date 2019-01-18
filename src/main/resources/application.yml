@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /sso
+
+spring:
+  datasource:
+   driver-class-name: com.mysql.cj.jdbc.Driver
+   username: root
+   password: root123
+   url: jdbc:mysql://localhost:3306/sso?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+
+
+mybatis:
+  #mapper xml文件所在路径
+  mapper-locations: classpath:mapper/*.xml
+  #映射类所在的包名
+  type-aliases-package: com.silence.passport.mapper
+  #SQL语句输出到控制台
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
